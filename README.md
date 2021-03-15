@@ -1,1 +1,1 @@
-# datacube_scripts
+# Scripts for Datacube environment
