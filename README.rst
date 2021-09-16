@@ -29,3 +29,4 @@ Scripts
 
 -  Shoreline detection validation using Satellite 2 images and UAV (`ShorelineDetectionUAV <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/ShorelineDetectionUAV>`_ )
 
+- Scalable data processing and visualization service of Sentinel 5P for Earth Observations Data Cubes (`Sentinel5PExtractionAndDASKProcessing <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/Sentinel5PExtractionAndDASKProcessing>`_ )
