@@ -15,8 +15,8 @@ The input data required by the LST Data Evaluation Service are the following:
 
 2. TIF Files: These are satellite images in TIF file format containing the following bands:
 
-- For Landsat: Band 10: Thermal Infrared (TIR) band, Band 11: TIR band, Band 4: Near Infrared (NIR) band, Band 3: Red band
-- For VIIRS: M15 band (TIR band), M7 band (NIR band), and M5 band (Red band)
+- For Landsat: Tar file containing Band 10: Thermal Infrared (TIR) band, Band 11: TIR band, Band 4: Near Infrared (NIR) band, Band 3: Red band
+- For VIIRS: TIF files that containes already calculatied LST for the region
 
 3. Observations: This data should be in a CSV file format and should include the following columns:
 
@@ -35,6 +35,8 @@ The LST Data Evaluation Service provides the following output data:
 
 Steps to use LST Data Evaluation Service
 ================================
+
+Step: Execute extract_lst.py to calculate estimated LST from Landsat images using the stations.csv data
 
 Step 1: Prepare input data
 Prepare the input data in the CSV file format for station coordinates and TIF file format for satellite images.
