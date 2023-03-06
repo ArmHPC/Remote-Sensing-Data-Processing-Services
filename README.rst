@@ -1,32 +1,37 @@
-Scripts for Datacube environment
+Remote Sensing Data Processing Services Repository
 ================================
 
 Overview
 ========
 
-The Open Data Cube Core provides an integrated gridded data
-analysis environment for decades of analysis ready earth observation
-satellite and related data from multiple satellite and other acquisition
-systems.
+Welcome to the Remote Sensing Data Processing Services Repository! 
+This repository contains a collection of scripts and tools for processing remote sensing data.
 
-Documentation
-=============
 
-See the `user guide <http://datacube-core.readthedocs.io/en/latest/>`__ for
-installation and usage of the datacube, and for documentation of the API.
+Getting Started
+========
 
-For Install and run of Jypyter environment `see official documentation <https://jupyter.org/documentation>`_.
+To use this repository, you'll need to have the following installed on your system:
 
-System
-======
-
--  PostgreSQL 9.5+
--  Python 3.6+
--  Jupyter Notebook
+- Python 3
+- GDAL/OGR
+- NumPy
+- Matplotlib
 
 Scripts
 =======
 
--  Shoreline detection validation using Satellite 2 images and UAV (`ShorelineDetectionUAV <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/ShorelineDetectionUAV>`_ )
+- Programs to work with OpenDataCube (`OpenDataCube <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/OpenDataCube>`_ )
 
-- Scalable data processing and visualization service of Sentinel 5P for Earth Observations Data Cubes (`Sentinel5PExtractionAndDASKProcessing <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/Sentinel5PExtractionAndDASKProcessing>`_ )
+- Remote Sensing scripts (`RemoteSensing <https://github.com/ArmHPC/Armenian-Data-Cube/tree/main/RemoteSensing>`_ )
+
+
+Contributing
+=======
+
+If you'd like to contribute to this repository, please feel free to open a pull request with your changes. We welcome contributions of new scripts, bug fixes, and improvements to existing scripts.
+
+License
+=======
+
+This repository is licensed under the MIT License. See the LICENSE file for more details.
